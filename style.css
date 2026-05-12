@@ -710,20 +710,13 @@ body.popup-open{
     overflow:hidden;
   }
 
-  .form-wrapper{
+  .form-frame{
   width:100%;
-  max-width:500px;
-  position:relative;
-  display:flex;
-  justify-content:center;
-  align-items:center;
 }
 
-.form-frame{
-  width:115%;
-  max-width:none;
-  position:relative;
-  z-index:1;
+.form-wrapper{
+  width:100%;
+  max-width:500px;
 }
 
 .form-console{
