@@ -762,7 +762,7 @@ body.popup-open{
 .guest-container{
   width:100%;
   gap:16px;
-  margin-left:-20px;
+  margin-left:-30px;
   padding-left:0px;
   scroll-snap-type:x mandatory;
   scroll-padding-left:10px;
@@ -814,7 +814,7 @@ body.popup-open{
   left:50%;
   transform:translate(-50%);
   width:91%;
-  height:395px;
+  height:385px;
   padding:10px 12px;
 }
 
