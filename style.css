@@ -147,12 +147,10 @@ select{
   color:#fff;
   text-decoration:none;
   font-size:2rem;
-
   box-shadow:
     0 0 24px rgba(255, 24, 15, 0.95),
     0 0 8px rgba(255,255,255,0.25),
     inset 0 -5px 0 rgba(0,0,0,.2);
-
   text-shadow:
     2px 2px 0 #ff6f6f,
     -1px -1px 0 #fff;
@@ -170,7 +168,6 @@ select{
 
 .title-glow-red{
   color:#ff2d27;
-
   text-shadow:
     0 3px 0 #b60000,
     0 0 14px rgba(255,45,39,.35);
@@ -178,7 +175,6 @@ select{
 
 .title-glow-white{
   color:#fff;
-
   text-shadow:
     0 3px 0 rgba(255,0,0,.5),
     0 0 12px rgba(255,255,255,.2);
@@ -186,7 +182,6 @@ select{
 
 .title-glow-green{
   color:#59ff41;
-
   text-shadow:
     0 2px 0 #0f5a00,
     0 0 10px rgba(89,255,65,.25);
@@ -194,7 +189,6 @@ select{
 
 .title-glow-yellow{
   color:#f5ff3d;
-
   text-shadow:
     0 2px 0 #666400,
     0 0 10px rgba(245,255,61,.25);
@@ -209,13 +203,11 @@ select{
     radial-gradient(circle at center,
     rgba(168,0,255,.18),
     transparent 34%),
-
     linear-gradient(
       180deg,
       #0a0310 0%,
       #23002f 100%
     );
-
   padding:70px 6.5% 80px;
 }
 
@@ -236,11 +228,9 @@ select{
 .feature-img{
   width:100%;
   border-radius:6px;
-
   box-shadow:
     0 0 0 1px rgba(255,255,255,.08),
     0 10px 24px rgba(0,0,0,.35);
-
   object-fit:cover;
 }
 
@@ -267,14 +257,12 @@ select{
 
 .guests{
   padding:85px 6.5%;
-
   background:
     radial-gradient(
       circle at 50% 0%,
       rgba(186,0,255,.22),
       transparent 30%
     ),
-
     linear-gradient(
       180deg,
       #22002d 0%,
@@ -320,9 +308,7 @@ select{
   background:#ff130c;
   color:#fff;
   font-size:2rem;
-
-  box-shadow:
-    0 0 18px rgba(255, 19, 12, .45);
+  box-shadow:0 0 18px rgba(255, 19, 12, .45);
 }
 
 .guest-card{
@@ -353,9 +339,7 @@ select{
   color:#ff554f;
   font-family:'Play', sans-serif;
   font-weight:700;
-
-  text-shadow:
-    0 0 8px rgba(255,85,79,.18);
+  text-shadow:0 0 8px rgba(255,85,79,.18);
 }
 
 .guest-card p{
@@ -376,14 +360,12 @@ select{
   padding:90px 20px;
   display:flex;
   justify-content:center;
-
   background:
     radial-gradient(
       circle at center,
       rgba(255,0,255,.18),
       transparent 34%
     ),
-
     linear-gradient(
       180deg,
       #1b001f 0%,
@@ -421,9 +403,7 @@ select{
   border-radius:12px;
   padding:21px;
   z-index:2;
-
-  box-shadow:
-    0 0 30px rgba(0,0,0,.45);
+  box-shadow:0 0 30px rgba(0,0,0,.45);
 }
 
 .form-console h2{
@@ -468,7 +448,6 @@ select{
   border-radius:999px;
   font-size:1.5rem;
   cursor:pointer;
-
   box-shadow:
     0 6px 0 #9b1209,
     0 0 18px rgba(226,28,13,.35);
@@ -486,9 +465,7 @@ select{
   height:22px;
   border-radius:50%;
   background:#444;
-
-  box-shadow:
-    inset 0 2px 4px rgba(0,0,0,.5);
+  box-shadow:inset 0 2px 4px rgba(0,0,0,.5);
 }
 
 /* =========================
@@ -497,7 +474,6 @@ select{
 
 .faq{
   padding:82px 6.5% 90px;
-
   background:
     linear-gradient(
       180deg,
@@ -522,9 +498,7 @@ select{
   background:#fff;
   color:#ff5a82;
   font-size:1.2rem;
-
-  box-shadow:
-    0 8px 18px rgba(0,0,0,.18);
+  box-shadow:0 8px 18px rgba(0,0,0,.18);
 }
 
 .faq-answer{
@@ -575,29 +549,14 @@ select{
 .popup-overlay{
   position:fixed;
   inset:0;
-
   display:none;
   align-items:center;
   justify-content:center;
-
   padding:20px;
-
   background:
-    radial-gradient(circle at bottom left,
-    rgba(195,0,255,.35),
-    transparent 30%),
-
-    radial-gradient(circle at top right,
-    rgba(162,0,255,.28),
-    transparent 25%),
-
-    linear-gradient(
-      180deg,
-      #120014 0%,
-      #1a0121 45%,
-      #3c0050 100%
-    );
-
+    radial-gradient(circle at bottom left, rgba(195,0,255,.35), transparent 30%),
+    radial-gradient(circle at top right, rgba(162,0,255,.28), transparent 25%),
+    linear-gradient(180deg, #120014 0%, #1a0121 45%, #3c0050 100%);
   z-index:9999;
   overflow:hidden;
 }
@@ -621,7 +580,6 @@ body.popup-open{
   font-size:clamp(4.5rem, 12vw, 9rem);
   line-height:.9;
   color:#ffd84d;
-
   text-shadow:
     0 6px 0 #6a00b8,
     10px 10px 0 rgba(0,0,0,.35),
@@ -633,7 +591,6 @@ body.popup-open{
   font-family:'Pixelify Sans', sans-serif;
   font-size:clamp(2rem, 5vw, 4rem);
   color:#ffe24a;
-
   text-shadow:
     0 4px 0 #d61a1a,
     0 0 14px rgba(255,42,42,.35);
@@ -663,7 +620,85 @@ body.popup-open{
    RESPONSIVE
 ========================= */
 
+@media(max-width:900px){
+  .hero{
+    padding:42px 20px 54px;
+  }
+
+  .hero-content{
+    flex-direction:column;
+    align-items:flex-start;
+  }
+
+  .hero h1{
+    font-size:3rem;
+  }
+
+  .hero-right{
+    width:100%;
+    align-items:center;
+  }
+
+  .feature-row{
+    grid-template-columns:1fr;
+  }
+
+  .feature-text p{
+    max-width:none;
+  }
+
+  .faq-container{
+    grid-template-columns:1fr;
+  }
+}
+
 @media(max-width:768px){
+  .navbar{
+    height:60px;
+    padding:0 14px;
+  }
+
+  .logo{
+    height:36px;
+  }
+
+  .hero{
+    min-height:auto;
+    padding:42px 20px 54px;
+  }
+
+  .hero h1{
+    font-size:2.5rem;
+  }
+
+  .section-title{
+    font-size:2rem;
+  }
+
+  .info-box h2{
+    font-size:1.7rem;
+  }
+
+  .hero-btn{
+    font-size:1.4rem;
+    padding:15px 28px;
+  }
+
+  .feature-title{
+    font-size:1.7rem;
+  }
+
+  .feature-text p{
+    font-size:1.1rem;
+  }
+
+  .guest-container{
+    width:100%;
+  }
+
+  .guest-card{
+    min-width:220px;
+  }
 
   .form-section{
     padding:60px 10px;
@@ -675,7 +710,7 @@ body.popup-open{
   }
 
   .form-frame{
-    width:100%;
+    width:73%;
     height:auto;
     display:block;
   }
@@ -685,7 +720,6 @@ body.popup-open{
     top:40%;
     left:50%;
     transform:translate(-50%, -50%);
-
     width:67%;
     padding:21px;
   }
@@ -702,5 +736,13 @@ body.popup-open{
   input,
   select{
     height:38px;
+  }
+
+  .footer{
+    padding:28px 16px;
+  }
+
+  .footer-logo{
+    width:130px;
   }
 }
