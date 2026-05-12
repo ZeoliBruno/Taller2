@@ -711,34 +711,32 @@ body.popup-open{
   }
 
   .form-wrapper{
-    position:relative;
-    width:100%;
-    max-width:420px;
-    margin:auto;
-    display:flex;
-    justify-content:center;
-    align-items:center;
-  }
+  width:100%;
+  max-width:500px;
+  position:relative;
+  display:flex;
+  justify-content:center;
+  align-items:center;
+}
 
-  .form-frame{
-    width:100%;
-    max-width:none;
-    position:relative;
-    z-index:1;
-  }
+.form-frame{
+  width:115%;
+  max-width:none;
+  position:relative;
+  z-index:1;
+}
 
-  .form-console{
-    position:absolute;
-    z-index:2;
+.form-console{
+  position:absolute;
+  top:50%;
+  left:50%;
+  transform:translate(-50%, -50%);
 
-    top:50%;
-    left:50%;
-    transform:translate(-50%, -50%);
+  width:62%;
+  padding:18px;
 
-    width:58%;
-    padding:12px;
-    border-radius:10px;
-  }
+  z-index:2;
+}
 
   .form-console h2{
     font-size:1.05rem;
