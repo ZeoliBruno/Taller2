@@ -663,107 +663,31 @@ body.popup-open{
    RESPONSIVE
 ========================= */
 
-@media(max-width:900px){
-
-  .hero{
-    padding:42px 20px 54px;
-  }
-
-  .hero-content{
-    flex-direction:column;
-    align-items:flex-start;
-  }
-
-  .hero h1{
-    font-size:3rem;
-  }
-
-  .hero-right{
-    width:100%;
-    align-items:center;
-  }
-
-  .feature-row{
-    grid-template-columns:1fr;
-  }
-
-  .feature-text p{
-    max-width:none;
-  }
-
-  .faq-container{
-    grid-template-columns:1fr;
-  }
-}
-
 @media(max-width:768px){
 
-  .navbar{
-    height:60px;
-    padding:0 14px;
-  }
-
-  .logo{
-    height:36px;
-  }
-
-  .hero{
-    min-height:auto;
-    padding:42px 20px 54px;
-  }
-
-  .hero h1{
-    font-size:2.5rem;
-  }
-
-  .section-title{
-    font-size:2rem;
-  }
-
-  .info-box h2{
-    font-size:1.7rem;
-  }
-
-  .hero-btn{
-    font-size:1.4rem;
-    padding:15px 28px;
-  }
-
-  .feature-title{
-    font-size:1.7rem;
-  }
-
-  .feature-text p{
-    font-size:1.1rem;
-  }
-
-  .guest-container{
-    width:100%;
-  }
-
-  .guest-card{
-    min-width:220px;
-  }
-
   .form-section{
-    padding:60px 12px;
+    padding:60px 10px;
   }
 
   .form-wrapper{
-    width:min(100%, 520px);
-    aspect-ratio:1 / 1.15;
+    width:100%;
+    max-width:650px;
   }
 
   .form-frame{
     width:100%;
-    max-width:none;
     height:auto;
+    display:block;
   }
 
   .form-console{
-    width:72%;
-    top:46%;
-    padding:14px;
+    position:absolute;
+    top:40%;
+    left:50%;
+    transform:translate(-50%, -50%);
+
+    width:67%;
+    padding:21px;
   }
 
   .form-console h2{
@@ -778,13 +702,5 @@ body.popup-open{
   input,
   select{
     height:38px;
-  }
-
-  .footer{
-    padding:28px 16px;
-  }
-
-  .footer-logo{
-    width:130px;
   }
 }
