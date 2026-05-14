@@ -738,8 +738,14 @@ body.popup-open{
     text-align:center;
   }
 
+  .feature-text{
+    text-align:center;
+    padding-right:0;
+  }
+
   .feature-text p{
-    font-size:1.1rem;
+    text-align:center;
+    margin:auto;
   }
 
   /* =========================
