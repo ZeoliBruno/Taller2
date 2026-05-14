@@ -728,12 +728,14 @@ body.popup-open{
   }
 
   .hero-btn{
-    font-size:1.4rem;
-    padding:15px 28px;
+    font-size:
+    padding:15px 28px
   }
 
   .feature-title{
     font-size:1.7rem;
+    justify-items:center;
+    text-align:center;
   }
 
   .feature-text p{
@@ -742,10 +744,9 @@ body.popup-open{
 
   /* =========================
    GUESTS MOBILE FIX
-========================= */
+========================= 
 
-.carousel-container{
-  gap:1px;
+  
   justify-content:center;
 }
 
