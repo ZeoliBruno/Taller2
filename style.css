@@ -686,8 +686,6 @@ body.popup-open{
 
   .feature-row{
     grid-template-columns:1fr;
-    justify-items:center;
-    text-align:center;
   }
 
   .feature-text p{
