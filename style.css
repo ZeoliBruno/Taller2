@@ -1465,6 +1465,7 @@ body.popup-open{
   .feature-title{
 
     font-size:1.7rem;
+    text-align:center;
 
   }
 
@@ -1473,6 +1474,7 @@ body.popup-open{
   .feature-text p{
 
     font-size:1.1rem;
+    text-align:center;
 
   }
 
